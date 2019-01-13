@@ -40,39 +40,50 @@
             // 
             // working_btn
             // 
-            this.working_btn.Location = new System.Drawing.Point(12, 12);
+            this.working_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.working_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.working_btn.Location = new System.Drawing.Point(123, 0);
+            this.working_btn.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
             this.working_btn.Name = "working_btn";
-            this.working_btn.Size = new System.Drawing.Size(75, 23);
+            this.working_btn.Size = new System.Drawing.Size(75, 25);
             this.working_btn.TabIndex = 0;
             this.working_btn.Text = "Working";
-            this.working_btn.UseVisualStyleBackColor = true;
+            this.working_btn.UseVisualStyleBackColor = false;
             // 
             // break_btn
             // 
-            this.break_btn.Location = new System.Drawing.Point(13, 41);
+            this.break_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.break_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.break_btn.Location = new System.Drawing.Point(198, 0);
             this.break_btn.Name = "break_btn";
-            this.break_btn.Size = new System.Drawing.Size(75, 23);
+            this.break_btn.Size = new System.Drawing.Size(75, 25);
             this.break_btn.TabIndex = 0;
-            this.break_btn.Text = "break_btn";
-            this.break_btn.UseVisualStyleBackColor = true;
+            this.break_btn.Text = "Break";
+            this.break_btn.UseVisualStyleBackColor = false;
+            this.break_btn.Click += new System.EventHandler(this.break_btn_Click);
             // 
             // settings_btn
             // 
-            this.settings_btn.Location = new System.Drawing.Point(12, 70);
+            this.settings_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.settings_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.settings_btn.Location = new System.Drawing.Point(273, 0);
             this.settings_btn.Name = "settings_btn";
-            this.settings_btn.Size = new System.Drawing.Size(75, 23);
+            this.settings_btn.Size = new System.Drawing.Size(75, 25);
             this.settings_btn.TabIndex = 0;
             this.settings_btn.Text = "Settings";
-            this.settings_btn.UseVisualStyleBackColor = true;
+            this.settings_btn.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 96);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(123, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "0min / 60min";
             // 
             // user_notify
             // 
@@ -90,7 +101,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(100, 120);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(348, 25);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.settings_btn);
             this.Controls.Add(this.break_btn);
@@ -98,6 +111,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.Opacity = 0.9D;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

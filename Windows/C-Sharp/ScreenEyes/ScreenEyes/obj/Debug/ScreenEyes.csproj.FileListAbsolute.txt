@@ -1,0 +1,11 @@
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\bin\Debug\ScreenEyes.exe.config
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\bin\Debug\ScreenEyes.exe
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\bin\Debug\ScreenEyes.pdb
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\obj\Debug\ScreenEyes.csprojAssemblyReference.cache
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\obj\Debug\ScreenEyes.Form1.resources
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\obj\Debug\ScreenEyes.Properties.Resources.resources
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\obj\Debug\ScreenEyes.csproj.GenerateResource.cache
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\obj\Debug\ScreenEyes.csproj.CoreCompileInputs.cache
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\obj\Debug\ScreenEyes.exe
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\obj\Debug\ScreenEyes.pdb
+C:\Users\harry\Documents\Github\ScreenEyes\Windows\C-Sharp\ScreenEyes\ScreenEyes\obj\Debug\ScreenEyes.break.resources
